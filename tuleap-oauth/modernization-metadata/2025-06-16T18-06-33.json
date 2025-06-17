@@ -16,5 +16,13 @@
   "deletions": 64,
   "changedFiles": 12,
   "key": "2025-06-16T18-06-33.json",
-  "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata"
+  "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata",
+  "checkRuns": {
+    "Jenkins Security Scan": "success",
+    "security-scan / scan": "success",
+    "Build and archive": "success",
+    "Tests (windows-2022) with coverage": "cancelled",
+    "Tests (ubuntu-22.04) with coverage": "failure"
+  },
+  "checkRunsSummary": "failure"
 }
