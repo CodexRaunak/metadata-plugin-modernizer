@@ -10,7 +10,7 @@
   ],
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
   "pullRequestUrl": "https://github.com/Raunak80Madan/tuleap-oauth-plugin/pull/9",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 55,
   "deletions": 64,
