@@ -6,9 +6,9 @@ from github import Github
 from jsonschema import validate, ValidationError
 
 # GitHub API client
-token = os.getenv('MY_PAT')
+token = os.getenv('GH_TOKEN')
 if not token:
-    raise EnvironmentError("MY_PAT is not set. Make sure 'secrets.PAT' is configured.")
+    raise EnvironmentError("GITHUB TOKEN is not found.")
 g = Github(token)
 repo = g.get_repo('Raunak80Madan/metadata-plugin-modernizer')
 pr_number = os.getenv('GITHUB_REF').split('/')[-2]

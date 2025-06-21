@@ -28,7 +28,7 @@ jobs:
 
       - name: Validate metadata
         env:
-          MY_PAT: ${{ secrets.PAT }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/validate_metadata.py
 
       - name: Auto-merge PR
