@@ -87,6 +87,7 @@ def validate_metadata(file_path):
 
     # Schema validation
     try:
+        metadata['path'] = metadata['path'].replace('\\', '/')
         validate(instance=metadata, schema=schema)
     except ValidationError as e:
         pr.create_issue_comment(f"Invalid metadata in {file_path}: {e.message}")

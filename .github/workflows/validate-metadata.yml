@@ -6,6 +6,9 @@ on:
     paths:
         - '**/modernization-metadata/**'
 
+permissions:
+  pull-requests: write
+
 jobs:
   validate-metadata:
     runs-on: ubuntu-latest
