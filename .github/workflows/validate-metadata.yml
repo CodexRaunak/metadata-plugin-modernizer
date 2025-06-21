@@ -1,0 +1,35 @@
+name: Validate Metadata PR
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+        - '**/modernization-metadata/**'
+
+jobs:
+  validate-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Needed to access PR diff
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests PyGithub jsonschema
+
+      - name: Validate metadata
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/validate_metadata.py
+
+      - name: Auto-merge PR
+        if: success()
+        run: gh pr merge --merge --auto --repo Raunak80Madan/metadata-plugin-modernizer
+        env:
+            GH_TOKEN: ${{ secrets.PAT }}
