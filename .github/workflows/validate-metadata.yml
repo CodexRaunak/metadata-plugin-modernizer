@@ -33,6 +33,6 @@ jobs:
 
       - name: Auto-merge PR
         if: success()
-        run: gh pr merge --merge --auto --repo Raunak80Madan/metadata-plugin-modernizer
+        run: gh pr merge "${{ github.head_ref }}" --merge --auto --repo Raunak80Madan/metadata-plugin-modernizer
         env:
             GH_TOKEN: ${{ secrets.PAT }}
