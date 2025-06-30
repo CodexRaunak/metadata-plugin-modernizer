@@ -16,5 +16,15 @@
   "deletions": 64,
   "changedFiles": 12,
   "key": "2025-06-26T20-24-01.json",
-  "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata"
+  "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata",
+  "checkRuns": {
+    "Build and archive": "success",
+    "Jenkins Security Scan": "success",
+    "Tests (ubuntu-22.04) with coverage": "failure",
+    "Tests (windows-2022) with coverage": "cancelled",
+    "security-scan / scan": "success"
+  },
+  "checkRunsSummary": "failure",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "07db5b3a4bf0890397540e1a205ece15f9d1779a"
 }
