@@ -17,5 +17,9 @@
   "deletions": 17,
   "changedFiles": 3,
   "key": "2025-06-27T19-42-54.json",
-  "path": "metadata-plugin-modernizer\\loadcomplete\\modernization-metadata"
+  "path": "metadata-plugin-modernizer\\loadcomplete\\modernization-metadata",
+  "checkRuns": {},
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "6040b21554006eb26bd33047d86412737f2eed59"
 }
