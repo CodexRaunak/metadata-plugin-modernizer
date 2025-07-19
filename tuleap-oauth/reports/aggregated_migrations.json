@@ -23,8 +23,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -53,8 +53,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -83,8 +83,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -113,8 +113,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -143,8 +143,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -173,8 +173,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -203,8 +203,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -233,8 +233,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -263,8 +263,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -312,8 +312,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -341,8 +341,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -370,8 +370,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -399,8 +399,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -447,8 +447,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -476,8 +476,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -505,8 +505,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -534,8 +534,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",
@@ -563,8 +563,8 @@
       "checkRuns": {
         "Build and archive": "success",
         "Jenkins Security Scan": "success",
-        "Tests (ubuntu-22.04) with coverage": "failure",
-        "Tests (windows-2022) with coverage": "cancelled",
+        "Tests (ubuntu-22.04) with coverage": "cancelled",
+        "Tests (windows-2022) with coverage": "failure",
         "security-scan / scan": "success"
       },
       "checkRunsSummary": "failure",

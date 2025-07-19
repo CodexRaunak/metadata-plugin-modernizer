@@ -14,7 +14,7 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/compuware-topaz-for-total-test-plugin/pull/71",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 10,
       "deletions": 0,
@@ -39,7 +39,7 @@
       },
       "checkRunsSummary": "pending",
       "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "0e3ba1532a46cd237a9c2f87a8f001f0666358e5",
+      "defaultBranchLatestCommitSha": "115db717929e3f6442a82f06db95b335515053a2",
       "timestamp": "2025-07-07T08-34-55"
     },
     {
@@ -74,7 +74,7 @@
       "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
       "migrationStatus": "success",
       "pullRequestUrl": "https://github.com/jenkinsci/compuware-topaz-for-total-test-plugin/pull/69",
-      "pullRequestStatus": "open",
+      "pullRequestStatus": "merged",
       "dryRun": false,
       "additions": 6,
       "deletions": 9,
@@ -88,7 +88,7 @@
       },
       "checkRunsSummary": "failure",
       "defaultBranch": "master",
-      "defaultBranchLatestCommitSha": "0e3ba1532a46cd237a9c2f87a8f001f0666358e5",
+      "defaultBranchLatestCommitSha": "115db717929e3f6442a82f06db95b335515053a2",
       "timestamp": "2025-07-07T08-28-09"
     }
   ]
