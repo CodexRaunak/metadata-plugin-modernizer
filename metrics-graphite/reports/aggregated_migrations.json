@@ -1,0 +1,54 @@
+{
+  "pluginName": "metrics-graphite",
+  "pluginRepository": "https://github.com/jenkinsci/metrics-graphite-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "3.0.0",
+      "jenkinsBaseline": "",
+      "targetBaseline": "1.651",
+      "effectiveBaseline": "1.651",
+      "jenkinsVersion": "1.651.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-22T16-17-51.json",
+      "path": "metadata-plugin-modernizer/metrics-graphite/modernization-metadata",
+      "timestamp": "2025-07-22T16-17-51"
+    },
+    {
+      "pluginVersion": "3.0.0",
+      "jenkinsBaseline": "",
+      "targetBaseline": "1.651",
+      "effectiveBaseline": "1.651",
+      "jenkinsVersion": "1.651.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-21T19-45-03.json",
+      "path": "metadata-plugin-modernizer/metrics-graphite/modernization-metadata",
+      "timestamp": "2025-07-21T19-45-03"
+    }
+  ]
+}

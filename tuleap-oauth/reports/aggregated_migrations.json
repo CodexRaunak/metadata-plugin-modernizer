@@ -4,6 +4,29 @@
   "migrations": [
     {
       "pluginVersion": "1.1.21",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.401",
+      "jenkinsVersion": "2.401.3",
+      "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
+      "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
+      "tags": [
+        "dependencies"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/Raunak80Madan/tuleap-oauth-plugin/pull/10",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 55,
+      "deletions": 65,
+      "changedFiles": 12,
+      "key": "2025-07-22T13-44-46.json",
+      "path": "metadata-plugin-modernizer\\tuleap-oauth\\modernization-metadata",
+      "timestamp": "2025-07-22T13-44-46"
+    },
+    {
+      "pluginVersion": "1.1.21",
       "jenkinsBaseline": "2.492",
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.492",

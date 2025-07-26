@@ -4,6 +4,30 @@
   "migrations": [
     {
       "pluginVersion": "0.2",
+      "jenkinsBaseline": "2.492",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-22T18-57-55.json",
+      "path": "metadata-plugin-modernizer/figlet-buildstep/modernization-metadata",
+      "timestamp": "2025-07-22T18-57-55"
+    },
+    {
+      "pluginVersion": "0.2",
       "jenkinsBaseline": "2.479",
       "targetBaseline": "2.492",
       "effectiveBaseline": "2.479",

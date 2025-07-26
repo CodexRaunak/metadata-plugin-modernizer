@@ -1,0 +1,78 @@
+{
+  "pluginName": "zephyr-enterprise-test-management",
+  "pluginRepository": "https://github.com/jenkinsci/zephyr-enterprise-test-management-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "2.9.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.452",
+      "effectiveBaseline": "2.452",
+      "jenkinsVersion": "2.452.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/zephyr-enterprise-test-management-plugin/pull/30",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-22T09-27-56.json",
+      "path": "metadata-plugin-modernizer/zephyr-enterprise-test-management/modernization-metadata",
+      "timestamp": "2025-07-22T09-27-56"
+    },
+    {
+      "pluginVersion": "2.9.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.452",
+      "effectiveBaseline": "2.452",
+      "jenkinsVersion": "2.452.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/zephyr-enterprise-test-management-plugin/pull/30",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-22T08-13-56.json",
+      "path": "metadata-plugin-modernizer/zephyr-enterprise-test-management/modernization-metadata",
+      "timestamp": "2025-07-22T08-13-56"
+    },
+    {
+      "pluginVersion": "2.9.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.452",
+      "effectiveBaseline": "2.452",
+      "jenkinsVersion": "2.452.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/zephyr-enterprise-test-management-plugin/pull/30",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-22T07-40-54.json",
+      "path": "metadata-plugin-modernizer/zephyr-enterprise-test-management/modernization-metadata",
+      "timestamp": "2025-07-22T07-40-54"
+    }
+  ]
+}

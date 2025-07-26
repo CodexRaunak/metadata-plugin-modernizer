@@ -22,6 +22,30 @@
       "additions": 12,
       "deletions": 0,
       "changedFiles": 1,
+      "key": "2025-07-22T19-18-20.json",
+      "path": "metadata-plugin-modernizer/environment-filter-utils/modernization-metadata",
+      "timestamp": "2025-07-22T19-18-20"
+    },
+    {
+      "pluginVersion": "1.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.249",
+      "effectiveBaseline": "2.249",
+      "jenkinsVersion": "2.249.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/environment-filter-utils-plugin/pull/4",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
       "key": "2025-07-21T16-00-55.json",
       "path": "metadata-plugin-modernizer/environment-filter-utils/modernization-metadata",
       "checkRuns": {
