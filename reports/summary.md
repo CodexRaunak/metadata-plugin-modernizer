@@ -1,14 +1,14 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-07-21 17:46:57 UTC
+Generated on: 2025-07-26 01:48:41 UTC
 
 ## Overview
-- **Total Migrations**: 173
-- **Failed Migrations**: 86
-- **Success Rate**: 50.29%
+- **Total Migrations**: 379
+- **Failed Migrations**: 260
+- **Success Rate**: 31.40%
 
 ## Failures by Recipe
-- io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 58 failures
+- io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 232 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 25 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
@@ -95,18 +95,110 @@ Generated on: 2025-07-21 17:46:57 UTC
 - [humio](../humio/reports/failed_migrations.csv)
 - [hyper-commons](../hyper-commons/reports/failed_migrations.csv)
 - [hyper-slaves](../hyper-slaves/reports/failed_migrations.csv)
+- [icescrum](../icescrum/reports/failed_migrations.csv)
+- [ifttt-build-notifier](../ifttt-build-notifier/reports/failed_migrations.csv)
+- [imagecomparison](../imagecomparison/reports/failed_migrations.csv)
+- [inflectra-spira-integration](../inflectra-spira-integration/reports/failed_migrations.csv)
+- [internetmeme](../internetmeme/reports/failed_migrations.csv)
+- [ipmessenger-plugin](../ipmessenger-plugin/reports/failed_migrations.csv)
+- [itest](../itest/reports/failed_migrations.csv)
+- [jenkins-flowdock-plugin](../jenkins-flowdock-plugin/reports/failed_migrations.csv)
+- [jgiven](../jgiven/reports/failed_migrations.csv)
+- [jigomerge](../jigomerge/reports/failed_migrations.csv)
 - [jira-steps](../jira-steps/reports/failed_migrations.csv)
+- [jobdelete-builder](../jobdelete-builder/reports/failed_migrations.csv)
+- [jobrequeue](../jobrequeue/reports/failed_migrations.csv)
+- [jobrevision](../jobrevision/reports/failed_migrations.csv)
+- [jobtemplates](../jobtemplates/reports/failed_migrations.csv)
+- [jsunit](../jsunit/reports/failed_migrations.csv)
+- [kanboard](../kanboard/reports/failed_migrations.csv)
+- [keep-slave-disconnected](../keep-slave-disconnected/reports/failed_migrations.csv)
+- [kiuwanJenkinsPlugin](../kiuwanJenkinsPlugin/reports/failed_migrations.csv)
+- [kryptowire](../kryptowire/reports/failed_migrations.csv)
+- [lifx-notifier](../lifx-notifier/reports/failed_migrations.csv)
+- [list-command](../list-command/reports/failed_migrations.csv)
+- [loadcomplete](../loadcomplete/reports/failed_migrations.csv)
+- [mailmap-resolver](../mailmap-resolver/reports/failed_migrations.csv)
+- [marathon](../marathon/reports/failed_migrations.csv)
+- [mdtool](../mdtool/reports/failed_migrations.csv)
+- [mentor-questa-vrm](../mentor-questa-vrm/reports/failed_migrations.csv)
+- [metrics-graphite](../metrics-graphite/reports/failed_migrations.csv)
+- [mission-control-view](../mission-control-view/reports/failed_migrations.csv)
+- [msginject](../msginject/reports/failed_migrations.csv)
+- [mttr](../mttr/reports/failed_migrations.csv)
+- [multi-branch-project-plugin](../multi-branch-project-plugin/reports/failed_migrations.csv)
+- [multi-module-tests-publisher](../multi-module-tests-publisher/reports/failed_migrations.csv)
+- [nouvola-divecloud](../nouvola-divecloud/reports/failed_migrations.csv)
+- [onesky](../onesky/reports/failed_migrations.csv)
 - [openstack-cloud](../openstack-cloud/reports/failed_migrations.csv)
+- [parallels-desktop](../parallels-desktop/reports/failed_migrations.csv)
+- [parameter-pool](../parameter-pool/reports/failed_migrations.csv)
+- [pending-changes](../pending-changes/reports/failed_migrations.csv)
+- [percentage-du-node-column](../percentage-du-node-column/reports/failed_migrations.csv)
+- [php-builtin-web-server](../php-builtin-web-server/reports/failed_migrations.csv)
+- [pipeline-dependency-walker](../pipeline-dependency-walker/reports/failed_migrations.csv)
+- [piwikanalytics](../piwikanalytics/reports/failed_migrations.csv)
+- [post-completed-build-result](../post-completed-build-result/reports/failed_migrations.csv)
+- [pretested-integration](../pretested-integration/reports/failed_migrations.csv)
+- [puppet](../puppet/reports/failed_migrations.csv)
+- [qmetry-test-management](../qmetry-test-management/reports/failed_migrations.csv)
+- [quality-gates](../quality-gates/reports/failed_migrations.csv)
+- [quayio-trigger](../quayio-trigger/reports/failed_migrations.csv)
+- [radiatorviewplugin](../radiatorviewplugin/reports/failed_migrations.csv)
+- [rally-plugin](../rally-plugin/reports/failed_migrations.csv)
+- [readonly-parameters](../readonly-parameters/reports/failed_migrations.csv)
+- [redgate-sql-ci](../redgate-sql-ci/reports/failed_migrations.csv)
+- [runscope](../runscope/reports/failed_migrations.csv)
+- [sasunit-plugin](../sasunit-plugin/reports/failed_migrations.csv)
+- [scripted-cloud-plugin](../scripted-cloud-plugin/reports/failed_migrations.csv)
+- [selected-tests-executor](../selected-tests-executor/reports/failed_migrations.csv)
+- [sensedia-api-platform](../sensedia-api-platform/reports/failed_migrations.csv)
+- [shared-workspace](../shared-workspace/reports/failed_migrations.csv)
+- [sidebar-update-notification](../sidebar-update-notification/reports/failed_migrations.csv)
+- [silk-performer-plugin](../silk-performer-plugin/reports/failed_migrations.csv)
+- [slack-uploader](../slack-uploader/reports/failed_migrations.csv)
+- [slave-squatter](../slave-squatter/reports/failed_migrations.csv)
+- [sonarqube-generic-coverage](../sonarqube-generic-coverage/reports/failed_migrations.csv)
+- [spoonscript](../spoonscript/reports/failed_migrations.csv)
+- [spring-initalzr](../spring-initalzr/reports/failed_migrations.csv)
+- [srcclr-installer](../srcclr-installer/reports/failed_migrations.csv)
+- [stackify-deployment-recorder](../stackify-deployment-recorder/reports/failed_migrations.csv)
+- [stoplightio-report](../stoplightio-report/reports/failed_migrations.csv)
+- [svn-partial-release-mgr](../svn-partial-release-mgr/reports/failed_migrations.csv)
 - [syslog-logger](../syslog-logger/reports/failed_migrations.csv)
+- [terminal](../terminal/reports/failed_migrations.csv)
+- [testodyssey-execution](../testodyssey-execution/reports/failed_migrations.csv)
+- [testquality-updater](../testquality-updater/reports/failed_migrations.csv)
+- [thucydides](../thucydides/reports/failed_migrations.csv)
+- [trac-publisher-plugin](../trac-publisher-plugin/reports/failed_migrations.csv)
+- [tracking-svn](../tracking-svn/reports/failed_migrations.csv)
+- [vagrant](../vagrant/reports/failed_migrations.csv)
+- [vault-scm-plugin](../vault-scm-plugin/reports/failed_migrations.csv)
+- [viewVC](../viewVC/reports/failed_migrations.csv)
+- [vmware-vrealize-automation-plugin](../vmware-vrealize-automation-plugin/reports/failed_migrations.csv)
+- [vmware-vrealize-orchestrator](../vmware-vrealize-orchestrator/reports/failed_migrations.csv)
+- [vncrecorder](../vncrecorder/reports/failed_migrations.csv)
+- [webhook-eventsource](../webhook-eventsource/reports/failed_migrations.csv)
+- [websocket](../websocket/reports/failed_migrations.csv)
+- [wildfly-deployer](../wildfly-deployer/reports/failed_migrations.csv)
+- [wix](../wix/reports/failed_migrations.csv)
+- [workplace-notifier](../workplace-notifier/reports/failed_migrations.csv)
+- [wwpass-plugin](../wwpass-plugin/reports/failed_migrations.csv)
+- [xframe-filter-plugin](../xframe-filter-plugin/reports/failed_migrations.csv)
+- [xpath-config-viewer](../xpath-config-viewer/reports/failed_migrations.csv)
+- [yandex-metrica](../yandex-metrica/reports/failed_migrations.csv)
+- [youtrack-plugin](../youtrack-plugin/reports/failed_migrations.csv)
+- [zapper](../zapper/reports/failed_migrations.csv)
+- [zentimestamp](../zentimestamp/reports/failed_migrations.csv)
 
 ## Pull Request Statistics
 
 | Status | Count | Percentage |
 |--------|-------|------------|
-| Total PRs | 61 | - |
-| Open PRs | 48 | 78.69% |
-| Closed PRs | 3 | 4.92% |
-| Merged PRs | 10 | 16.39% |
+| Total PRs | 80 | - |
+| Open PRs | 67 | 83.75% |
+| Closed PRs | 3 | 3.75% |
+| Merged PRs | 10 | 12.50% |
 
 
 *Note: No. of Migrations != No. of PRs. A migration applied may trigger force push on already opened PR.*

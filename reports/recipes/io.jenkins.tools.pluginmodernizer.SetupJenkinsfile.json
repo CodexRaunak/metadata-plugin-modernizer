@@ -1,9 +1,1034 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
-  "totalApplications": 67,
-  "successCount": 9,
-  "failureCount": 58,
+  "totalApplications": 272,
+  "successCount": 40,
+  "failureCount": 232,
   "plugins": [
+    {
+      "pluginName": "dos-trigger",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-47-31"
+    },
+    {
+      "pluginName": "dropdown-viewstabbar-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-43-42"
+    },
+    {
+      "pluginName": "ease-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-37-16"
+    },
+    {
+      "pluginName": "easyqa",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-33-33"
+    },
+    {
+      "pluginName": "eclipse-update-site",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-30-10"
+    },
+    {
+      "pluginName": "ecs-publisher",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-27-42"
+    },
+    {
+      "pluginName": "emmacoveragecolumn",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-23-51"
+    },
+    {
+      "pluginName": "emotional-jenkins-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-20-47"
+    },
+    {
+      "pluginName": "environment-filter-utils",
+      "status": "success",
+      "timestamp": "2025-07-22T19-18-20"
+    },
+    {
+      "pluginName": "environment-manager",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-14-53"
+    },
+    {
+      "pluginName": "exclusive-label-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-10-00"
+    },
+    {
+      "pluginName": "ezwall",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-02-44"
+    },
+    {
+      "pluginName": "failedJobDeactivator",
+      "status": "fail",
+      "timestamp": "2025-07-22T19-00-23"
+    },
+    {
+      "pluginName": "figlet-buildstep",
+      "status": "success",
+      "timestamp": "2025-07-22T18-57-55"
+    },
+    {
+      "pluginName": "files-found-trigger",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-56-12"
+    },
+    {
+      "pluginName": "fogbugz",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-53-06"
+    },
+    {
+      "pluginName": "fxcop-runner",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-49-53"
+    },
+    {
+      "pluginName": "gallio",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-47-35"
+    },
+    {
+      "pluginName": "git-userContent",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-43-51"
+    },
+    {
+      "pluginName": "gitbucket",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-41-32"
+    },
+    {
+      "pluginName": "gitcolony-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-39-01"
+    },
+    {
+      "pluginName": "github-issues",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-36-15"
+    },
+    {
+      "pluginName": "google-analytics-usage-reporter",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-32-28"
+    },
+    {
+      "pluginName": "google-git-notes-publisher",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-29-05"
+    },
+    {
+      "pluginName": "hckrnews",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-22-52"
+    },
+    {
+      "pluginName": "heavy-job",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-20-10"
+    },
+    {
+      "pluginName": "housekeeper",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-17-30"
+    },
+    {
+      "pluginName": "htmlresource",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-13-28"
+    },
+    {
+      "pluginName": "http-post",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-10-16"
+    },
+    {
+      "pluginName": "humio",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-07-46"
+    },
+    {
+      "pluginName": "hyper-commons",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-04-22"
+    },
+    {
+      "pluginName": "hyper-slaves",
+      "status": "fail",
+      "timestamp": "2025-07-22T18-01-27"
+    },
+    {
+      "pluginName": "icescrum",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-54-52"
+    },
+    {
+      "pluginName": "ifttt-build-notifier",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-51-37"
+    },
+    {
+      "pluginName": "imagecomparison",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-48-54"
+    },
+    {
+      "pluginName": "inflectra-spira-integration",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-46-28"
+    },
+    {
+      "pluginName": "internetmeme",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-40-59"
+    },
+    {
+      "pluginName": "ipmessenger-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-38-13"
+    },
+    {
+      "pluginName": "itest",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-35-28"
+    },
+    {
+      "pluginName": "jenkins-flowdock-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-29-09"
+    },
+    {
+      "pluginName": "jenkinsci-appspider-plugin",
+      "status": "success",
+      "timestamp": "2025-07-22T17-25-38"
+    },
+    {
+      "pluginName": "jgiven",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-21-00"
+    },
+    {
+      "pluginName": "jigomerge",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-17-39"
+    },
+    {
+      "pluginName": "jobdelete-builder",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-12-51"
+    },
+    {
+      "pluginName": "jobrequeue",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-10-33"
+    },
+    {
+      "pluginName": "jobrevision",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-08-19"
+    },
+    {
+      "pluginName": "jobtemplates",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-06-00"
+    },
+    {
+      "pluginName": "jsunit",
+      "status": "fail",
+      "timestamp": "2025-07-22T17-02-56"
+    },
+    {
+      "pluginName": "kanboard",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-59-32"
+    },
+    {
+      "pluginName": "keep-slave-disconnected",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-57-09"
+    },
+    {
+      "pluginName": "kiuwanJenkinsPlugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-54-51"
+    },
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-49-05"
+    },
+    {
+      "pluginName": "lifx-notifier",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-41-55"
+    },
+    {
+      "pluginName": "list-command",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-39-05"
+    },
+    {
+      "pluginName": "loadcomplete",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-36-26"
+    },
+    {
+      "pluginName": "loadfocus-loadtest",
+      "status": "success",
+      "timestamp": "2025-07-22T16-34-14"
+    },
+    {
+      "pluginName": "mailmap-resolver",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-29-42"
+    },
+    {
+      "pluginName": "marathon",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-25-59"
+    },
+    {
+      "pluginName": "mdtool",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-21-37"
+    },
+    {
+      "pluginName": "metrics-graphite",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-17-51"
+    },
+    {
+      "pluginName": "mission-control-view",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-14-44"
+    },
+    {
+      "pluginName": "mqtt-notification-plugin",
+      "status": "success",
+      "timestamp": "2025-07-22T16-10-37"
+    },
+    {
+      "pluginName": "msginject",
+      "status": "fail",
+      "timestamp": "2025-07-22T16-05-18"
+    },
+    {
+      "pluginName": "mttr",
+      "status": "fail",
+      "timestamp": "2025-07-22T15-59-43"
+    },
+    {
+      "pluginName": "multi-module-tests-publisher",
+      "status": "fail",
+      "timestamp": "2025-07-22T15-52-08"
+    },
+    {
+      "pluginName": "nouvola-divecloud",
+      "status": "fail",
+      "timestamp": "2025-07-22T15-42-37"
+    },
+    {
+      "pluginName": "onesky",
+      "status": "fail",
+      "timestamp": "2025-07-22T15-29-11"
+    },
+    {
+      "pluginName": "openid4java",
+      "status": "success",
+      "timestamp": "2025-07-22T15-21-51"
+    },
+    {
+      "pluginName": "oracle-cloud-infrastructure-compute",
+      "status": "success",
+      "timestamp": "2025-07-22T15-09-31"
+    },
+    {
+      "pluginName": "parallels-desktop",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-57-06"
+    },
+    {
+      "pluginName": "parameter-pool",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-48-46"
+    },
+    {
+      "pluginName": "parasoft-findings",
+      "status": "success",
+      "timestamp": "2025-07-22T14-39-27"
+    },
+    {
+      "pluginName": "partyparrotstatus",
+      "status": "success",
+      "timestamp": "2025-07-22T14-29-07"
+    },
+    {
+      "pluginName": "pending-changes",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-26-13"
+    },
+    {
+      "pluginName": "percentage-du-node-column",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-23-27"
+    },
+    {
+      "pluginName": "php-builtin-web-server",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-17-56"
+    },
+    {
+      "pluginName": "pipeline-dependency-walker",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-15-37"
+    },
+    {
+      "pluginName": "piwikanalytics",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-12-44"
+    },
+    {
+      "pluginName": "post-completed-build-result",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-09-50"
+    },
+    {
+      "pluginName": "pretested-integration",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-07-55"
+    },
+    {
+      "pluginName": "prqa-plugin",
+      "status": "success",
+      "timestamp": "2025-07-22T14-04-57"
+    },
+    {
+      "pluginName": "puppet",
+      "status": "fail",
+      "timestamp": "2025-07-22T14-02-22"
+    },
+    {
+      "pluginName": "qmetry-test-management",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-56-34"
+    },
+    {
+      "pluginName": "qtest",
+      "status": "success",
+      "timestamp": "2025-07-22T13-54-12"
+    },
+    {
+      "pluginName": "quality-gates",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-51-49"
+    },
+    {
+      "pluginName": "quayio-trigger",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-43-32"
+    },
+    {
+      "pluginName": "radiatorviewplugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-34-16"
+    },
+    {
+      "pluginName": "rally-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-25-54"
+    },
+    {
+      "pluginName": "readonly-parameters",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-21-36"
+    },
+    {
+      "pluginName": "redgate-sql-ci",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-19-13"
+    },
+    {
+      "pluginName": "runscope",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-11-23"
+    },
+    {
+      "pluginName": "safe-batch-environment-filter",
+      "status": "success",
+      "timestamp": "2025-07-22T13-08-39"
+    },
+    {
+      "pluginName": "sasunit-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T13-04-04"
+    },
+    {
+      "pluginName": "scripted-cloud-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T12-55-08"
+    },
+    {
+      "pluginName": "selected-tests-executor",
+      "status": "fail",
+      "timestamp": "2025-07-22T12-45-33"
+    },
+    {
+      "pluginName": "sensedia-api-platform",
+      "status": "fail",
+      "timestamp": "2025-07-22T12-35-53"
+    },
+    {
+      "pluginName": "shared-workspace",
+      "status": "fail",
+      "timestamp": "2025-07-22T12-28-06"
+    },
+    {
+      "pluginName": "sidebar-update-notification",
+      "status": "fail",
+      "timestamp": "2025-07-22T12-22-59"
+    },
+    {
+      "pluginName": "silk-performer-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T12-18-52"
+    },
+    {
+      "pluginName": "slack-uploader",
+      "status": "fail",
+      "timestamp": "2025-07-22T12-04-02"
+    },
+    {
+      "pluginName": "slave-squatter",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-57-58"
+    },
+    {
+      "pluginName": "sonar",
+      "status": "success",
+      "timestamp": "2025-07-22T11-54-40"
+    },
+    {
+      "pluginName": "sonarqube-generic-coverage",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-52-17"
+    },
+    {
+      "pluginName": "spoonscript",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-49-10"
+    },
+    {
+      "pluginName": "spotinst",
+      "status": "success",
+      "timestamp": "2025-07-22T11-46-20"
+    },
+    {
+      "pluginName": "spring-initalzr",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-44-15"
+    },
+    {
+      "pluginName": "srcclr-installer",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-40-45"
+    },
+    {
+      "pluginName": "stackify-deployment-recorder",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-37-36"
+    },
+    {
+      "pluginName": "stoplightio-report",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-33-35"
+    },
+    {
+      "pluginName": "svn-partial-release-mgr",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-30-22"
+    },
+    {
+      "pluginName": "syslog-logger",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-27-04"
+    },
+    {
+      "pluginName": "terminal",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-22-13"
+    },
+    {
+      "pluginName": "testodyssey-execution",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-13-56"
+    },
+    {
+      "pluginName": "testquality-updater",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-11-09"
+    },
+    {
+      "pluginName": "testsigma",
+      "status": "success",
+      "timestamp": "2025-07-22T11-08-47"
+    },
+    {
+      "pluginName": "thucydides",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-04-39"
+    },
+    {
+      "pluginName": "trac-publisher-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T11-00-29"
+    },
+    {
+      "pluginName": "tracking-svn",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-56-52"
+    },
+    {
+      "pluginName": "unity3d-plugin",
+      "status": "success",
+      "timestamp": "2025-07-22T10-51-15"
+    },
+    {
+      "pluginName": "vagrant",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-47-37"
+    },
+    {
+      "pluginName": "vault-scm-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-44-19"
+    },
+    {
+      "pluginName": "vectorcast-execution",
+      "status": "success",
+      "timestamp": "2025-07-22T10-38-29"
+    },
+    {
+      "pluginName": "viewVC",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-31-04"
+    },
+    {
+      "pluginName": "vmware-vrealize-automation-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-27-17"
+    },
+    {
+      "pluginName": "vmware-vrealize-orchestrator",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-23-10"
+    },
+    {
+      "pluginName": "vncrecorder",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-20-26"
+    },
+    {
+      "pluginName": "vncviewer",
+      "status": "success",
+      "timestamp": "2025-07-22T10-17-47"
+    },
+    {
+      "pluginName": "wavefront",
+      "status": "success",
+      "timestamp": "2025-07-22T10-12-51"
+    },
+    {
+      "pluginName": "webhook-eventsource",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-10-26"
+    },
+    {
+      "pluginName": "websocket",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-05-33"
+    },
+    {
+      "pluginName": "wildfly-deployer",
+      "status": "fail",
+      "timestamp": "2025-07-22T10-02-40"
+    },
+    {
+      "pluginName": "wix",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-59-19"
+    },
+    {
+      "pluginName": "workplace-notifier",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-56-58"
+    },
+    {
+      "pluginName": "wwpass-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-53-10"
+    },
+    {
+      "pluginName": "xframe-filter-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-50-26"
+    },
+    {
+      "pluginName": "xpath-config-viewer",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-48-01"
+    },
+    {
+      "pluginName": "yandex-metrica",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-44-49"
+    },
+    {
+      "pluginName": "youtrack-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-42-32"
+    },
+    {
+      "pluginName": "zapper",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-38-12"
+    },
+    {
+      "pluginName": "zentimestamp",
+      "status": "fail",
+      "timestamp": "2025-07-22T09-30-46"
+    },
+    {
+      "pluginName": "zephyr-enterprise-test-management",
+      "status": "success",
+      "timestamp": "2025-07-22T09-27-56"
+    },
+    {
+      "pluginName": "wavefront",
+      "status": "success",
+      "timestamp": "2025-07-22T08-41-44"
+    },
+    {
+      "pluginName": "webhook-eventsource",
+      "status": "fail",
+      "timestamp": "2025-07-22T08-38-10"
+    },
+    {
+      "pluginName": "websocket",
+      "status": "fail",
+      "timestamp": "2025-07-22T08-31-29"
+    },
+    {
+      "pluginName": "wildfly-deployer",
+      "status": "fail",
+      "timestamp": "2025-07-22T08-26-02"
+    },
+    {
+      "pluginName": "youtrack-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T08-17-16"
+    },
+    {
+      "pluginName": "zephyr-enterprise-test-management",
+      "status": "success",
+      "timestamp": "2025-07-22T08-13-56"
+    },
+    {
+      "pluginName": "workplace-notifier",
+      "status": "fail",
+      "timestamp": "2025-07-22T08-08-54"
+    },
+    {
+      "pluginName": "wwpass-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T08-04-28"
+    },
+    {
+      "pluginName": "xframe-filter-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T08-01-01"
+    },
+    {
+      "pluginName": "xpath-config-viewer",
+      "status": "fail",
+      "timestamp": "2025-07-22T07-56-55"
+    },
+    {
+      "pluginName": "yandex-metrica",
+      "status": "fail",
+      "timestamp": "2025-07-22T07-52-46"
+    },
+    {
+      "pluginName": "youtrack-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-22T07-50-10"
+    },
+    {
+      "pluginName": "zapper",
+      "status": "fail",
+      "timestamp": "2025-07-22T07-46-52"
+    },
+    {
+      "pluginName": "zentimestamp",
+      "status": "fail",
+      "timestamp": "2025-07-22T07-44-06"
+    },
+    {
+      "pluginName": "zephyr-enterprise-test-management",
+      "status": "success",
+      "timestamp": "2025-07-22T07-40-54"
+    },
+    {
+      "pluginName": "popper-api",
+      "status": "success",
+      "timestamp": "2025-07-21T21-01-59"
+    },
+    {
+      "pluginName": "piwikanalytics",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-57-23"
+    },
+    {
+      "pluginName": "pipeline-dependency-walker",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-54-17"
+    },
+    {
+      "pluginName": "php-builtin-web-server",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-51-12"
+    },
+    {
+      "pluginName": "percentage-du-node-column",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-44-13"
+    },
+    {
+      "pluginName": "pending-changes",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-41-17"
+    },
+    {
+      "pluginName": "partyparrotstatus",
+      "status": "success",
+      "timestamp": "2025-07-21T20-38-27"
+    },
+    {
+      "pluginName": "parasoft-findings",
+      "status": "success",
+      "timestamp": "2025-07-21T20-36-01"
+    },
+    {
+      "pluginName": "parameter-pool",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-31-25"
+    },
+    {
+      "pluginName": "parallels-desktop",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-28-58"
+    },
+    {
+      "pluginName": "oracle-cloud-infrastructure-compute",
+      "status": "success",
+      "timestamp": "2025-07-21T20-24-17"
+    },
+    {
+      "pluginName": "openid4java",
+      "status": "success",
+      "timestamp": "2025-07-21T20-16-43"
+    },
+    {
+      "pluginName": "onesky",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-14-06"
+    },
+    {
+      "pluginName": "nouvola-divecloud",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-08-34"
+    },
+    {
+      "pluginName": "multi-module-tests-publisher",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-04-24"
+    },
+    {
+      "pluginName": "multi-branch-project-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T20-01-45"
+    },
+    {
+      "pluginName": "mttr",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-58-52"
+    },
+    {
+      "pluginName": "msginject",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-56-15"
+    },
+    {
+      "pluginName": "mqtt-notification-plugin",
+      "status": "success",
+      "timestamp": "2025-07-21T19-53-26"
+    },
+    {
+      "pluginName": "mission-control-view",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-48-05"
+    },
+    {
+      "pluginName": "metrics-graphite",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-45-03"
+    },
+    {
+      "pluginName": "mentor-questa-vrm",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-41-33"
+    },
+    {
+      "pluginName": "mdtool",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-37-55"
+    },
+    {
+      "pluginName": "marathon",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-32-47"
+    },
+    {
+      "pluginName": "mailmap-resolver",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-28-31"
+    },
+    {
+      "pluginName": "loadfocus-loadtest",
+      "status": "success",
+      "timestamp": "2025-07-21T19-21-19"
+    },
+    {
+      "pluginName": "loadcomplete",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-18-01"
+    },
+    {
+      "pluginName": "list-command",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-15-02"
+    },
+    {
+      "pluginName": "lifx-notifier",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-11-49"
+    },
+    {
+      "pluginName": "kryptowire",
+      "status": "fail",
+      "timestamp": "2025-07-21T19-02-25"
+    },
+    {
+      "pluginName": "kiuwanJenkinsPlugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-54-32"
+    },
+    {
+      "pluginName": "keep-slave-disconnected",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-51-44"
+    },
+    {
+      "pluginName": "kanboard",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-49-26"
+    },
+    {
+      "pluginName": "jsunit",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-44-03"
+    },
+    {
+      "pluginName": "jobtemplates",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-40-19"
+    },
+    {
+      "pluginName": "jobrevision",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-37-46"
+    },
+    {
+      "pluginName": "jobrequeue",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-35-24"
+    },
+    {
+      "pluginName": "jobdelete-builder",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-32-24"
+    },
+    {
+      "pluginName": "jigomerge",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-27-28"
+    },
+    {
+      "pluginName": "jgiven",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-24-28"
+    },
+    {
+      "pluginName": "jenkinsci-appspider-plugin",
+      "status": "success",
+      "timestamp": "2025-07-21T18-19-05"
+    },
+    {
+      "pluginName": "jenkins-flowdock-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-15-44"
+    },
+    {
+      "pluginName": "itest",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-08-53"
+    },
+    {
+      "pluginName": "ipmessenger-plugin",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-06-27"
+    },
+    {
+      "pluginName": "internetmeme",
+      "status": "fail",
+      "timestamp": "2025-07-21T18-03-26"
+    },
+    {
+      "pluginName": "inflectra-spira-integration",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-58-09"
+    },
+    {
+      "pluginName": "imagecomparison",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-55-20"
+    },
+    {
+      "pluginName": "ifttt-build-notifier",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-52-16"
+    },
+    {
+      "pluginName": "icescrum",
+      "status": "fail",
+      "timestamp": "2025-07-21T17-48-37"
+    },
     {
       "pluginName": "hyper-slaves",
       "status": "fail",
