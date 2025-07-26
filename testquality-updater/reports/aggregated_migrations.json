@@ -1,0 +1,30 @@
+{
+  "pluginName": "testquality-updater",
+  "pluginRepository": "https://github.com/jenkinsci/testquality-updater-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.3",
+      "jenkinsBaseline": "",
+      "targetBaseline": "1.625",
+      "effectiveBaseline": "1.625",
+      "jenkinsVersion": "1.625.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-22T11-11-09.json",
+      "path": "metadata-plugin-modernizer/testquality-updater/modernization-metadata",
+      "timestamp": "2025-07-22T11-11-09"
+    }
+  ]
+}

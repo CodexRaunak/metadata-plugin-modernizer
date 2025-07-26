@@ -1,0 +1,30 @@
+{
+  "pluginName": "safe-batch-environment-filter",
+  "pluginRepository": "https://github.com/jenkinsci/safe-batch-environment-filter-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "0.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.249",
+      "effectiveBaseline": "2.249",
+      "jenkinsVersion": "2.249.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/safe-batch-environment-filter-plugin/pull/3",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-22T13-08-39.json",
+      "path": "metadata-plugin-modernizer/safe-batch-environment-filter/modernization-metadata",
+      "timestamp": "2025-07-22T13-08-39"
+    }
+  ]
+}

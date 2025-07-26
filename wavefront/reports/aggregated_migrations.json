@@ -1,0 +1,54 @@
+{
+  "pluginName": "wavefront",
+  "pluginRepository": "https://github.com/jenkinsci/wavefront-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.1.4",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.361",
+      "effectiveBaseline": "2.361",
+      "jenkinsVersion": "2.361.4",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/wavefront-plugin/pull/2",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-22T10-12-51.json",
+      "path": "metadata-plugin-modernizer/wavefront/modernization-metadata",
+      "timestamp": "2025-07-22T10-12-51"
+    },
+    {
+      "pluginVersion": "1.1.4",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.361",
+      "effectiveBaseline": "2.361",
+      "jenkinsVersion": "2.361.4",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/wavefront-plugin/pull/2",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 12,
+      "deletions": 0,
+      "changedFiles": 1,
+      "key": "2025-07-22T08-41-44.json",
+      "path": "metadata-plugin-modernizer/wavefront/modernization-metadata",
+      "timestamp": "2025-07-22T08-41-44"
+    }
+  ]
+}

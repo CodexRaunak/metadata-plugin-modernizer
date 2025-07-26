@@ -1,0 +1,54 @@
+{
+  "pluginName": "openid4java",
+  "pluginRepository": "https://github.com/jenkinsci/openid4java-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "0.9.8.0",
+      "jenkinsBaseline": "",
+      "targetBaseline": "1.625",
+      "effectiveBaseline": "1.625",
+      "jenkinsVersion": "1.625.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/openid4java-plugin/pull/4",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 5,
+      "deletions": 5,
+      "changedFiles": 1,
+      "key": "2025-07-22T15-21-51.json",
+      "path": "metadata-plugin-modernizer/openid4java/modernization-metadata",
+      "timestamp": "2025-07-22T15-21-51"
+    },
+    {
+      "pluginVersion": "0.9.8.0",
+      "jenkinsBaseline": "",
+      "targetBaseline": "1.625",
+      "effectiveBaseline": "1.625",
+      "jenkinsVersion": "1.625.3",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "success",
+      "pullRequestUrl": "https://github.com/jenkinsci/openid4java-plugin/pull/4",
+      "pullRequestStatus": "open",
+      "dryRun": false,
+      "additions": 5,
+      "deletions": 5,
+      "changedFiles": 1,
+      "key": "2025-07-21T20-16-43.json",
+      "path": "metadata-plugin-modernizer/openid4java/modernization-metadata",
+      "timestamp": "2025-07-21T20-16-43"
+    }
+  ]
+}

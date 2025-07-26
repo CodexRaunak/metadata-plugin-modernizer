@@ -1,0 +1,54 @@
+{
+  "pluginName": "mttr",
+  "pluginRepository": "https://github.com/jenkinsci/mttr-plugin.git",
+  "migrations": [
+    {
+      "pluginVersion": "1.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "1.580",
+      "effectiveBaseline": "1.580",
+      "jenkinsVersion": "1.580.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-22T15-59-43.json",
+      "path": "metadata-plugin-modernizer/mttr/modernization-metadata",
+      "timestamp": "2025-07-22T15-59-43"
+    },
+    {
+      "pluginVersion": "1.1",
+      "jenkinsBaseline": "",
+      "targetBaseline": "1.580",
+      "effectiveBaseline": "1.580",
+      "jenkinsVersion": "1.580.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-21T19-58-52.json",
+      "path": "metadata-plugin-modernizer/mttr/modernization-metadata",
+      "timestamp": "2025-07-21T19-58-52"
+    }
+  ]
+}

@@ -4,6 +4,54 @@
   "migrations": [
     {
       "pluginVersion": "1.0",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.121",
+      "effectiveBaseline": "2.121",
+      "jenkinsVersion": "2.121.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-22T16-36-26.json",
+      "path": "metadata-plugin-modernizer/loadcomplete/modernization-metadata",
+      "timestamp": "2025-07-22T16-36-26"
+    },
+    {
+      "pluginVersion": "1.0",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.121",
+      "effectiveBaseline": "2.121",
+      "jenkinsVersion": "2.121.1",
+      "migrationName": "Setup the Jenkinsfile",
+      "migrationDescription": "Add a missing Jenkinsfile to the Jenkins plugin.",
+      "tags": [
+        "skip-verification",
+        "chore"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-21T19-18-01.json",
+      "path": "metadata-plugin-modernizer/loadcomplete/modernization-metadata",
+      "timestamp": "2025-07-21T19-18-01"
+    },
+    {
+      "pluginVersion": "1.0",
       "rpuBaseline": "2.492",
       "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
       "migrationDescription": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17.",
