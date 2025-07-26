@@ -15,11 +15,15 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SetupJenkinsfile",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/popper-api-plugin/pull/88",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "closed",
   "dryRun": false,
   "additions": 12,
   "deletions": 0,
   "changedFiles": 1,
   "key": "2025-07-21T21-01-59.json",
-  "path": "metadata-plugin-modernizer/popper-api/modernization-metadata"
+  "path": "metadata-plugin-modernizer/popper-api/modernization-metadata",
+  "checkRuns": {},
+  "checkRunsSummary": "success",
+  "defaultBranch": "master",
+  "defaultBranchLatestCommitSha": "fd502b40be7fe210bc5523b2f5a4ca0e4457329c"
 }
