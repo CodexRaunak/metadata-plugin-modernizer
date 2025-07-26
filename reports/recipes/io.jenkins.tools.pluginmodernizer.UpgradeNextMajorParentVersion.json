@@ -1,9 +1,14 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
-  "totalApplications": 86,
-  "successCount": 45,
+  "totalApplications": 87,
+  "successCount": 46,
   "failureCount": 25,
   "plugins": [
+    {
+      "pluginName": "tuleap-oauth",
+      "status": "success",
+      "timestamp": "2025-07-22T13-44-46"
+    },
     {
       "pluginName": "figlet-buildstep",
       "status": "success",
