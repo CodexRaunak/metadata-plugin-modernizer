@@ -3,6 +3,54 @@
   "pluginRepository": "https://github.com/jenkinsci/buildtriggerbadge-plugin.git",
   "migrations": [
     {
+      "pluginVersion": "273.vb_d217761b_6d9",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate to JUnit 5",
+      "migrationDescription": "Migrate tests to JUnit5.",
+      "tags": [
+        "testing",
+        "migration"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-27T16-08-02.json",
+      "path": "metadata-plugin-modernizer/buildtriggerbadge/modernization-metadata",
+      "timestamp": "2025-07-27T16-08-02"
+    },
+    {
+      "pluginVersion": "273.vb_d217761b_6d9",
+      "jenkinsBaseline": "",
+      "targetBaseline": "2.492",
+      "effectiveBaseline": "2.492",
+      "jenkinsVersion": "2.492.3",
+      "migrationName": "Migrate to JUnit 5",
+      "migrationDescription": "Migrate tests to JUnit5.",
+      "tags": [
+        "testing",
+        "migration"
+      ],
+      "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
+      "migrationStatus": "fail",
+      "pullRequestUrl": "",
+      "pullRequestStatus": "",
+      "dryRun": false,
+      "additions": 0,
+      "deletions": 0,
+      "changedFiles": 0,
+      "key": "2025-07-27T16-01-56.json",
+      "path": "metadata-plugin-modernizer/buildtriggerbadge/modernization-metadata",
+      "timestamp": "2025-07-27T16-01-56"
+    },
+    {
       "pluginVersion": "251.vdf6ef853f3f5",
       "rpuBaseline": "2.492",
       "migrationName": "Upgrade to the next major parent version (5.X) requiring Jenkins 2.492 and Java 17",
