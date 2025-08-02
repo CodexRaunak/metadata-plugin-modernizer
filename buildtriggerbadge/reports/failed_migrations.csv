@@ -1,0 +1,3 @@
+migrationId,migrationStatus
+io.jenkins.tools.pluginmodernizer.MigrateToJUnit5,fail
+io.jenkins.tools.pluginmodernizer.MigrateToJUnit5,fail

@@ -1,9 +1,19 @@
 {
   "recipeId": "io.jenkins.tools.pluginmodernizer.MigrateToJUnit5",
-  "totalApplications": 1,
+  "totalApplications": 3,
   "successCount": 1,
-  "failureCount": 0,
+  "failureCount": 2,
   "plugins": [
+    {
+      "pluginName": "buildtriggerbadge",
+      "status": "fail",
+      "timestamp": "2025-07-27T16-08-02"
+    },
+    {
+      "pluginName": "buildtriggerbadge",
+      "status": "fail",
+      "timestamp": "2025-07-27T16-01-56"
+    },
     {
       "pluginName": "custom-build-properties",
       "status": "success",
