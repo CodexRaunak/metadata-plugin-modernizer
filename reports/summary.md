@@ -1,16 +1,17 @@
 
 # Jenkins Plugin Modernizer Report
-Generated on: 2025-07-27 11:29:01 UTC
+Generated on: 2025-08-02 01:48:59 UTC
 
 ## Overview
-- **Total Migrations**: 551
-- **Failed Migrations**: 366
-- **Success Rate**: 33.58%
+- **Total Migrations**: 553
+- **Failed Migrations**: 368
+- **Success Rate**: 33.45%
 
 ## Failures by Recipe
 - io.jenkins.tools.pluginmodernizer.SetupJenkinsfile: 336 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion: 25 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion: 2 failures
+- io.jenkins.tools.pluginmodernizer.MigrateToJUnit5: 2 failures
 - io.jenkins.tools.pluginmodernizer.UpgradeToLatestJava11CoreVersion: 1 failures
 - io.jenkins.tools.pluginmodernizer.AddCodeOwner: 1 failures
 - io.jenkins.tools.pluginmodernizer.SetupDependabot: 1 failures
@@ -56,6 +57,7 @@ Generated on: 2025-07-27 11:29:01 UTC
 - [boot-clj](../boot-clj/reports/failed_migrations.csv)
 - [build-health-cache-updater](../build-health-cache-updater/reports/failed_migrations.csv)
 - [build-metrics](../build-metrics/reports/failed_migrations.csv)
+- [buildtriggerbadge](../buildtriggerbadge/reports/failed_migrations.csv)
 - [byteguard-build-actions](../byteguard-build-actions/reports/failed_migrations.csv)
 - [changelog-history](../changelog-history/reports/failed_migrations.csv)
 - [chef-tracking](../chef-tracking/reports/failed_migrations.csv)
