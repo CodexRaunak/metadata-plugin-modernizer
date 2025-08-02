@@ -12,7 +12,7 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.SetupDependabot",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/ec2-fleet-plugin/pull/463",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 10,
   "deletions": 0,
@@ -37,5 +37,5 @@
   },
   "checkRunsSummary": "success",
   "defaultBranch": "master",
-  "defaultBranchLatestCommitSha": "de2ba9626ee2f7e2b0814420750bec38aa8112b4"
+  "defaultBranchLatestCommitSha": "abccfe94a3b5ab3287f28333aef5cd65213bdf38"
 }
