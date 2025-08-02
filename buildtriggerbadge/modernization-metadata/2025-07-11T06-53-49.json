@@ -11,7 +11,7 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeNextMajorParentVersion",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/buildtriggerbadge-plugin/pull/175",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 8,
   "deletions": 21,
@@ -19,11 +19,22 @@
   "key": "2025-07-11T06-53-49.json",
   "path": "metadata-plugin-modernizer/buildtriggerbadge/modernization-metadata",
   "checkRuns": {
+    "CPD": "success",
+    "CheckStyle": "success",
+    "Code Coverage": "success",
+    "ESLint": "success",
+    "Java Compiler": "success",
+    "JavaDoc": "success",
     "Jenkins": "failure",
     "Jenkins Security Scan": "success",
+    "Maven": "success",
+    "Open Tasks Scanner": "success",
+    "PMD": "success",
+    "SpotBugs": "success",
+    "Tests / linux-17 / Build (linux-17)": "success",
     "security-scan / scan": "success"
   },
   "checkRunsSummary": "failure",
   "defaultBranch": "master",
-  "defaultBranchLatestCommitSha": "4318b45dfcde8682472d590149e71ff616178da6"
+  "defaultBranchLatestCommitSha": "19decf05a0df8fb31eae67d43cf23e7c2d00d749"
 }

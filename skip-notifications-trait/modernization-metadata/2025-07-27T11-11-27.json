@@ -14,7 +14,7 @@
   "migrationId": "io.jenkins.tools.pluginmodernizer.UpgradeToRecommendCoreVersion",
   "migrationStatus": "success",
   "pullRequestUrl": "https://github.com/jenkinsci/skip-notifications-trait-plugin/pull/271",
-  "pullRequestStatus": "open",
+  "pullRequestStatus": "merged",
   "dryRun": false,
   "additions": 2,
   "deletions": 2,
@@ -41,5 +41,5 @@
   },
   "checkRunsSummary": "success",
   "defaultBranch": "main",
-  "defaultBranchLatestCommitSha": "2974c30529ed81a27a3d0785325baf2966ecce92"
+  "defaultBranchLatestCommitSha": "f379a767ced71e44e72902cc2e97131e3219c55f"
 }
