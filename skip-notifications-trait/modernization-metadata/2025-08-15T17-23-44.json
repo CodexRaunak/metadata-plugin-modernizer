@@ -1,0 +1,25 @@
+{
+  "pluginName": "skip-notifications-trait",
+  "pluginRepository": "https://github.com/jenkinsci/skip-notifications-trait-plugin.git",
+  "pluginVersion": "542.vf379a_767ced7",
+  "jenkinsBaseline": "2.492",
+  "targetBaseline": "2.492",
+  "effectiveBaseline": "2.492",
+  "jenkinsVersion": "2.492.3",
+  "migrationName": "Migrate plugins to Java 25",
+  "migrationDescription": "Migrate plugins to Java 25 LTS.",
+  "tags": [
+    "migration",
+    "dependencies"
+  ],
+  "migrationId": "io.jenkins.tools.pluginmodernizer.MigrateToJava25",
+  "migrationStatus": "success",
+  "pullRequestUrl": "https://github.com/jenkinsci/skip-notifications-trait-plugin/pull/275",
+  "pullRequestStatus": "open",
+  "dryRun": false,
+  "additions": 2,
+  "deletions": 4,
+  "changedFiles": 2,
+  "key": "2025-08-15T17-23-44.json",
+  "path": "metadata-plugin-modernizer\\skip-notifications-trait\\modernization-metadata"
+}
